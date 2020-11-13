@@ -10,6 +10,10 @@ export default {
             format: 'es',
         },
         {
+            file: 'dist/three-csg.cjs.js',
+            format: 'cjs',
+        },
+        {
             file: 'dist/three-csg.min.js',
             format: 'es',
             plugins: [terser()],
